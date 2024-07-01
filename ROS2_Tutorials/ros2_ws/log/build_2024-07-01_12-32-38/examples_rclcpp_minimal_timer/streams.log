@@ -1,0 +1,74 @@
+[0.004s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.092s] -- The CXX compiler identification is GNU 11.4.0
+[0.098s] -- Detecting C compiler ABI info
+[0.145s] -- Detecting C compiler ABI info - done
+[0.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.156s] -- Detecting C compile features
+[0.156s] -- Detecting C compile features - done
+[0.159s] -- Detecting CXX compiler ABI info
+[0.213s] -- Detecting CXX compiler ABI info - done
+[0.219s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.219s] -- Detecting CXX compile features
+[0.220s] -- Detecting CXX compile features - done
+[0.221s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.327s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.373s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.390s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.417s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.421s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.426s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.436s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.502s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.503s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.524s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.530s] -- Looking for pthread.h
+[0.586s] -- Looking for pthread.h - found
+[0.586s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.636s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.637s] -- Found Threads: TRUE  
+[0.753s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.814s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.815s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.815s] -- Configured cppcheck include dirs: 
+[0.815s] -- Configured cppcheck exclude dirs and/or files: 
+[0.816s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.816s] -- Configured cpplint exclude dirs and/or files: 
+[0.816s] -- Added test 'lint_cmake' to check CMake code style
+[0.817s] -- Added test 'uncrustify' to check C / C++ code style
+[0.817s] -- Configured uncrustify additional arguments: 
+[0.817s] -- Added test 'xmllint' to check XML markup files
+[0.818s] -- Configuring done
+[0.826s] -- Generating done
+[0.829s] -- Build files have been written to: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_minimal_timer
+[0.835s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer
+[0.835s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_minimal_timer -- -j1 -l1
+[0.877s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[3.093s] [ 50%] [32m[1mLinking CXX executable timer_lambda[0m
+[3.176s] [ 50%] Built target timer_lambda
+[3.191s] [ 75%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[5.454s] [100%] [32m[1mLinking CXX executable timer_member_function[0m
+[5.537s] [100%] Built target timer_member_function
+[5.545s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_minimal_timer -- -j1 -l1
+[5.564s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_minimal_timer
+[5.570s] -- Install configuration: ""
+[5.570s] -- Execute custom install script
+[5.571s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[5.576s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[5.584s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[5.594s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[5.602s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[5.608s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[5.614s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[5.620s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[5.626s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[5.632s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[5.638s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[5.644s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[5.650s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[5.655s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[5.661s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[5.667s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[5.673s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[5.689s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_minimal_timer

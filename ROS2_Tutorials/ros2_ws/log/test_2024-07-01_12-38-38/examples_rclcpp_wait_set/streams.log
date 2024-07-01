@@ -1,0 +1,163 @@
+[0.013s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set': AMENT_PREFIX_PATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_wait_set:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_wait_set LD_LIBRARY_PATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_wait_set/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.024s] UpdateCTestConfiguration  from :/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.024s] Parse Config file:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.025s]    Site: antoronson-VirtualBox
+[0.025s]    Build name: (empty)
+[0.025s]  Add coverage exclude regular expressions.
+[0.025s] Create new tag: 20240701-1038 - Experimental
+[0.025s] UpdateCTestConfiguration  from :/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.025s] Parse Config file:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.025s] Test project /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set
+[0.025s] Constructing a list of tests
+[0.028s] Done constructing a list of tests
+[0.028s] Updating test list for fixtures
+[0.028s] Added 0 tests to meet fixture requirements
+[0.028s] Checking test dependency graph...
+[0.028s] Checking test dependency graph end
+[0.029s] test 1
+[0.029s]     Start 1: copyright
+[0.029s] 
+[0.029s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml"
+[0.029s] 1: Test timeout computed to be: 200
+[0.073s] 1: -- run_test.py: invoking following command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set':
+[0.073s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml
+[0.453s] 1: No problems found, checked 15 files
+[0.464s] 1: -- run_test.py: return code 0
+[0.464s] 1: -- run_test.py: verify result file '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml'
+[0.470s] 1/6 Test #1: copyright ........................   Passed    0.44 sec
+[0.470s] test 2
+[0.470s]     Start 2: cppcheck
+[0.470s] 
+[0.471s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--include_dirs" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/include"
+[0.471s] 2: Test timeout computed to be: 300
+[0.508s] 2: -- run_test.py: invoking following command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set':
+[0.508s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml --include_dirs /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/include
+[0.562s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[0.570s] 2: -- run_test.py: return code 0
+[0.570s] 2: -- run_test.py: verify result file '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml'
+[0.576s] 2/6 Test #2: cppcheck .........................   Passed    0.11 sec
+[0.576s] test 3
+[0.577s]     Start 3: cpplint
+[0.577s] 
+[0.577s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml"
+[0.577s] 3: Test timeout computed to be: 120
+[0.618s] 3: -- run_test.py: invoking following command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set':
+[0.618s] 3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml
+[0.859s] 3: Using '--root=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/include' argument
+[0.859s] 3: 
+[0.859s] 3: Done processing /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/listener.hpp
+[0.859s] 3: 
+[0.859s] 3: Done processing /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/random_listener.hpp
+[0.859s] 3: 
+[0.859s] 3: Done processing /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/random_talker.hpp
+[0.859s] 3: 
+[0.859s] 3: Done processing /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/talker.hpp
+[0.859s] 3: 
+[0.859s] 3: Done processing /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/visibility.h
+[0.859s] 3: 
+[0.859s] 3: Using '--root=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/src' argument
+[0.860s] 3: 
+[0.860s] 3: Done processing /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/src/executor_random_order.cpp
+[0.860s] 3: 
+[0.860s] 3: Done processing /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/src/listener.cpp
+[0.860s] 3: 
+[0.860s] 3: Done processing /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/src/static_wait_set.cpp
+[0.860s] 3: 
+[0.860s] 3: Done processing /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/src/talker.cpp
+[0.860s] 3: 
+[0.860s] 3: Done processing /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/src/thread_safe_wait_set.cpp
+[0.860s] 3: 
+[0.860s] 3: Done processing /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set.cpp
+[0.860s] 3: 
+[0.860s] 3: Done processing /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_composed.cpp
+[0.860s] 3: 
+[0.860s] 3: Done processing /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_random_order.cpp
+[0.860s] 3: 
+[0.860s] 3: Done processing /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_topics_and_timer.cpp
+[0.860s] 3: 
+[0.860s] 3: Done processing /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_topics_with_different_rates.cpp
+[0.860s] 3: 
+[0.860s] 3: No problems found
+[0.870s] 3: -- run_test.py: return code 0
+[0.870s] 3: -- run_test.py: verify result file '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml'
+[0.875s] 3/6 Test #3: cpplint ..........................   Passed    0.30 sec
+[0.875s] test 4
+[0.875s]     Start 4: lint_cmake
+[0.875s] 
+[0.876s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml"
+[0.876s] 4: Test timeout computed to be: 60
+[0.916s] 4: -- run_test.py: invoking following command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set':
+[0.916s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml
+[0.964s] 4: 
+[0.964s] 4: No problems found
+[0.974s] 4: -- run_test.py: return code 0
+[0.974s] 4: -- run_test.py: verify result file '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml'
+[0.979s] 4/6 Test #4: lint_cmake .......................   Passed    0.10 sec
+[0.979s] test 5
+[0.979s]     Start 5: uncrustify
+[0.979s] 
+[0.980s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml"
+[0.980s] 5: Test timeout computed to be: 60
+[1.018s] 5: -- run_test.py: invoking following command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set':
+[1.018s] 5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml
+[1.086s] 5: No code style divergence in file 'include/wait_set/listener.hpp'
+[1.086s] 5: 
+[1.086s] 5: No code style divergence in file 'include/wait_set/random_listener.hpp'
+[1.086s] 5: 
+[1.086s] 5: No code style divergence in file 'include/wait_set/random_talker.hpp'
+[1.086s] 5: 
+[1.086s] 5: No code style divergence in file 'include/wait_set/talker.hpp'
+[1.086s] 5: 
+[1.086s] 5: No code style divergence in file 'include/wait_set/visibility.h'
+[1.087s] 5: 
+[1.087s] 5: No code style divergence in file 'src/executor_random_order.cpp'
+[1.087s] 5: 
+[1.087s] 5: No code style divergence in file 'src/listener.cpp'
+[1.087s] 5: 
+[1.087s] 5: No code style divergence in file 'src/static_wait_set.cpp'
+[1.087s] 5: 
+[1.087s] 5: No code style divergence in file 'src/talker.cpp'
+[1.087s] 5: 
+[1.087s] 5: No code style divergence in file 'src/thread_safe_wait_set.cpp'
+[1.087s] 5: 
+[1.087s] 5: No code style divergence in file 'src/wait_set.cpp'
+[1.087s] 5: 
+[1.087s] 5: No code style divergence in file 'src/wait_set_composed.cpp'
+[1.087s] 5: 
+[1.087s] 5: No code style divergence in file 'src/wait_set_random_order.cpp'
+[1.087s] 5: 
+[1.087s] 5: No code style divergence in file 'src/wait_set_topics_and_timer.cpp'
+[1.087s] 5: 
+[1.087s] 5: No code style divergence in file 'src/wait_set_topics_with_different_rates.cpp'
+[1.087s] 5: 
+[1.087s] 5: No problems found
+[1.098s] 5: -- run_test.py: return code 0
+[1.098s] 5: -- run_test.py: verify result file '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml'
+[1.102s] 5/6 Test #5: uncrustify .......................   Passed    0.12 sec
+[1.102s] test 6
+[1.102s]     Start 6: xmllint
+[1.103s] 
+[1.103s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml"
+[1.104s] 6: Test timeout computed to be: 60
+[1.143s] 6: -- run_test.py: invoking following command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/wait_set':
+[1.143s] 6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml
+[1.402s] 6: File 'package.xml' is valid
+[1.402s] 6: 
+[1.402s] 6: No problems found
+[1.410s] 6: -- run_test.py: return code 0
+[1.410s] 6: -- run_test.py: verify result file '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml'
+[1.416s] 6/6 Test #6: xmllint ..........................   Passed    0.31 sec
+[1.416s] 
+[1.416s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[1.416s] 
+[1.416s] Label Time Summary:
+[1.416s] copyright     =   0.44 sec*proc (1 test)
+[1.418s] cppcheck      =   0.11 sec*proc (1 test)
+[1.418s] cpplint       =   0.30 sec*proc (1 test)
+[1.418s] lint_cmake    =   0.10 sec*proc (1 test)
+[1.418s] linter        =   1.38 sec*proc (6 tests)
+[1.418s] uncrustify    =   0.12 sec*proc (1 test)
+[1.418s] xmllint       =   0.31 sec*proc (1 test)
+[1.418s] 
+[1.418s] Total Test time (real) =   1.39 sec
+[1.421s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_wait_set' returned '0': AMENT_PREFIX_PATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_wait_set:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_wait_set LD_LIBRARY_PATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_wait_set/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

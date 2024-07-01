@@ -1,0 +1,71 @@
+[0.021s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client
+[0.131s] -- The C compiler identification is GNU 11.4.0
+[0.220s] -- The CXX compiler identification is GNU 11.4.0
+[0.231s] -- Detecting C compiler ABI info
+[0.287s] -- Detecting C compiler ABI info - done
+[0.292s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.293s] -- Detecting C compile features
+[0.295s] -- Detecting C compile features - done
+[0.299s] -- Detecting CXX compiler ABI info
+[0.358s] -- Detecting CXX compiler ABI info - done
+[0.363s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.364s] -- Detecting CXX compile features
+[0.364s] -- Detecting CXX compile features - done
+[0.372s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.496s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.557s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.592s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.644s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.650s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.662s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.679s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.703s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.840s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.903s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.908s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.950s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.964s] -- Looking for pthread.h
+[1.035s] -- Looking for pthread.h - found
+[1.035s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.100s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.101s] -- Found Threads: TRUE  
+[1.249s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.326s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.327s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.327s] -- Configured cppcheck include dirs: 
+[1.327s] -- Configured cppcheck exclude dirs and/or files: 
+[1.328s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.328s] -- Configured cpplint exclude dirs and/or files: 
+[1.329s] -- Added test 'lint_cmake' to check CMake code style
+[1.330s] -- Added test 'uncrustify' to check C / C++ code style
+[1.330s] -- Configured uncrustify additional arguments: 
+[1.332s] -- Added test 'xmllint' to check XML markup files
+[1.334s] -- Configuring done
+[1.349s] -- Generating done
+[1.351s] -- Build files have been written to: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_async_client
+[1.359s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client
+[1.360s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_async_client -- -j1 -l1
+[1.420s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[5.192s] [100%] [32m[1mLinking CXX executable client_main[0m
+[5.376s] [100%] Built target client_main
+[5.385s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_async_client -- -j1 -l1
+[5.409s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_async_client
+[5.414s] -- Install configuration: ""
+[5.415s] -- Execute custom install script
+[5.415s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client/lib/examples_rclcpp_async_client/client_main
+[5.421s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_async_client
+[5.426s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_async_client
+[5.432s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.sh
+[5.437s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.dsv
+[5.442s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.sh
+[5.448s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.dsv
+[5.453s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.bash
+[5.458s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.sh
+[5.463s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.zsh
+[5.474s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.dsv
+[5.480s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.dsv
+[5.485s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/packages/examples_rclcpp_async_client
+[5.491s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig.cmake
+[5.497s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig-version.cmake
+[5.502s] -- Symlinking: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.xml
+[5.516s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclcpp_async_client

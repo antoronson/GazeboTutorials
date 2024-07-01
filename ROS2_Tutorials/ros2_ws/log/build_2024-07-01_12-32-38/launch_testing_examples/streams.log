@@ -1,0 +1,25 @@
+[0.445s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples': PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data
+[0.627s] running develop
+[0.628s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.628s]   warnings.warn(
+[0.758s] running egg_info
+[0.758s] creating launch_testing_examples.egg-info
+[0.759s] writing launch_testing_examples.egg-info/PKG-INFO
+[0.759s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[0.759s] writing entry points to launch_testing_examples.egg-info/entry_points.txt
+[0.759s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[0.759s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[0.760s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[0.761s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[0.761s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[0.763s] running build_ext
+[0.763s] Creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[0.763s] 
+[0.764s] Installed /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples
+[0.764s] running symlink_data
+[0.764s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/launch_testing_examples/share/ament_index
+[0.764s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index
+[0.764s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[0.764s] symbolically linking /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples/resource/launch_testing_examples -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[0.764s] symbolically linking /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples/package.xml -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/launch_testing_examples/share/launch_testing_examples
+[0.794s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data

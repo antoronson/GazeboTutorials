@@ -1,0 +1,26 @@
+[0.483s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_guard_conditions': PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_guard_conditions/build --no-deps symlink_data
+[0.656s] running develop
+[0.657s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.657s]   warnings.warn(
+[0.761s] running egg_info
+[0.761s] creating examples_rclpy_guard_conditions.egg-info
+[0.762s] writing examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[0.762s] writing dependency_links to examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[0.762s] writing entry points to examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[0.762s] writing requirements to examples_rclpy_guard_conditions.egg-info/requires.txt
+[0.763s] writing top-level names to examples_rclpy_guard_conditions.egg-info/top_level.txt
+[0.763s] writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[0.764s] reading manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[0.765s] writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[0.767s] running build_ext
+[0.767s] Creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+[0.771s] Installing trigger_guard_condition script to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[0.771s] 
+[0.771s] Installed /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_guard_conditions
+[0.771s] running symlink_data
+[0.772s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index
+[0.772s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index
+[0.772s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[0.772s] symbolically linking /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_guard_conditions/resource/examples_rclpy_guard_conditions -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[0.772s] symbolically linking /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_guard_conditions/package.xml -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+[0.791s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_guard_conditions' returned '0': PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_guard_conditions/build --no-deps symlink_data

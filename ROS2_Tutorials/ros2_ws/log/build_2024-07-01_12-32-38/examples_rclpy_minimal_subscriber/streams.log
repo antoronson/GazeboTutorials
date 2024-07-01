@@ -1,0 +1,28 @@
+[0.447s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps symlink_data
+[0.628s] running develop
+[0.628s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.628s]   warnings.warn(
+[0.732s] running egg_info
+[0.732s] creating examples_rclpy_minimal_subscriber.egg-info
+[0.733s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[0.733s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[0.733s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[0.733s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[0.734s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[0.734s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[0.735s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[0.736s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[0.737s] running build_ext
+[0.737s] Creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[0.738s] Installing subscriber_lambda script to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[0.738s] Installing subscriber_member_function script to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[0.738s] Installing subscriber_old_school script to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[0.738s] 
+[0.738s] Installed /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_minimal_subscriber
+[0.739s] running symlink_data
+[0.739s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[0.739s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[0.739s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[0.739s] symbolically linking /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_minimal_subscriber/resource/examples_rclpy_minimal_subscriber -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[0.739s] symbolically linking /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_minimal_subscriber/package.xml -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[0.760s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps symlink_data

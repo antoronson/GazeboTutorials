@@ -1,0 +1,1 @@
+/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclpy/services/minimal_service/setup.py

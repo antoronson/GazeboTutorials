@@ -1,0 +1,41 @@
+[0.769s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/helloworld': PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/helloworld build --build-base /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build install --record /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/install.log --single-version-externally-managed install_data
+[0.992s] running egg_info
+[0.994s] creating ../../build/helloworld/helloworld.egg-info
+[0.994s] writing ../../build/helloworld/helloworld.egg-info/PKG-INFO
+[0.994s] writing dependency_links to ../../build/helloworld/helloworld.egg-info/dependency_links.txt
+[0.994s] writing entry points to ../../build/helloworld/helloworld.egg-info/entry_points.txt
+[0.994s] writing requirements to ../../build/helloworld/helloworld.egg-info/requires.txt
+[0.995s] writing top-level names to ../../build/helloworld/helloworld.egg-info/top_level.txt
+[0.995s] writing manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+[0.996s] reading manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+[0.996s] writing manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+[0.997s] running build
+[0.997s] running build_py
+[0.997s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build
+[0.997s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build/lib
+[0.997s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build/lib/helloworld
+[0.998s] copying helloworld/publisher.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build/lib/helloworld
+[0.998s] copying helloworld/subscriber.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build/lib/helloworld
+[0.998s] copying helloworld/__init__.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build/lib/helloworld
+[0.999s] running install
+[0.999s] running install_lib
+[1.000s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld
+[1.000s] copying /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build/lib/helloworld/publisher.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld
+[1.000s] copying /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build/lib/helloworld/subscriber.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld
+[1.000s] copying /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build/lib/helloworld/__init__.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld
+[1.001s] byte-compiling /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld/publisher.py to publisher.cpython-310.pyc
+[1.001s] byte-compiling /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld/subscriber.py to subscriber.cpython-310.pyc
+[1.002s] byte-compiling /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld/__init__.py to __init__.cpython-310.pyc
+[1.002s] running install_data
+[1.002s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/ament_index
+[1.002s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/ament_index/resource_index
+[1.002s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/ament_index/resource_index/packages
+[1.002s] copying resource/helloworld -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/ament_index/resource_index/packages
+[1.003s] copying package.xml -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/helloworld
+[1.003s] running install_egg_info
+[1.004s] Copying ../../build/helloworld/helloworld.egg-info to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld-0.0.0-py3.10.egg-info
+[1.004s] running install_scripts
+[1.019s] Installing listener script to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/helloworld
+[1.019s] Installing talker script to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/helloworld
+[1.020s] writing list of installed files to '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/install.log'
+[1.040s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/helloworld' returned '0': PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/helloworld build --build-base /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build install --record /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/install.log --single-version-externally-managed install_data

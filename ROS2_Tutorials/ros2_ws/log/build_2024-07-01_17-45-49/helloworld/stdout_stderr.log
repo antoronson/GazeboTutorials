@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/helloworld/helloworld.egg-info
+writing ../../build/helloworld/helloworld.egg-info/PKG-INFO
+writing dependency_links to ../../build/helloworld/helloworld.egg-info/dependency_links.txt
+writing entry points to ../../build/helloworld/helloworld.egg-info/entry_points.txt
+writing requirements to ../../build/helloworld/helloworld.egg-info/requires.txt
+writing top-level names to ../../build/helloworld/helloworld.egg-info/top_level.txt
+writing manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+reading manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+writing manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build
+creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build/lib
+creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build/lib/helloworld
+copying helloworld/publisher.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build/lib/helloworld
+copying helloworld/subscriber.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build/lib/helloworld
+copying helloworld/__init__.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build/lib/helloworld
+running install
+running install_lib
+creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld
+copying /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build/lib/helloworld/publisher.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld
+copying /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build/lib/helloworld/subscriber.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld
+copying /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build/lib/helloworld/__init__.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld
+byte-compiling /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld/publisher.py to publisher.cpython-310.pyc
+byte-compiling /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld/subscriber.py to subscriber.cpython-310.pyc
+byte-compiling /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/ament_index
+creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/ament_index/resource_index
+creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/ament_index/resource_index/packages
+copying resource/helloworld -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/ament_index/resource_index/packages
+copying package.xml -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/helloworld
+running install_egg_info
+Copying ../../build/helloworld/helloworld.egg-info to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/helloworld
+Installing talker script to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/helloworld
+writing list of installed files to '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/install.log'

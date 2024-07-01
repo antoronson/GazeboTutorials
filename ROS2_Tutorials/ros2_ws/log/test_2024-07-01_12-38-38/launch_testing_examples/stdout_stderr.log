@@ -1,0 +1,74 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples/.pytest_cache
+rootdir: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/launch_testing/launch_testing_examples
+plugins: ament-xmllint-0.12.11, ament-pep257-0.12.11, launch-testing-1.0.6, launch-testing-ros-0.19.7, ament-flake8-0.12.11, ament-copyright-0.12.11, ament-lint-0.12.11, cov-3.0.0, colcon-core-0.16.1
+[1mcollecting ... [0m[1m
+collected 9 items                                                              [0m
+
+launch_testing_examples/check_msgs_launch_test.py [32m.[0m[32m                      [ 11%][0m
+launch_testing_examples/check_multiple_nodes_launch_test.py [32m.[0m[32m            [ 22%][0m
+launch_testing_examples/check_node_launch_test.py [32m.[0m[32m                      [ 33%][0m
+launch_testing_examples/hello_world_launch_test.py [31mF[0m[31m                     [ 44%][0m
+launch_testing_examples/record_rosbag_launch_test.py [32m.[0m[31m                   [ 55%][0m
+launch_testing_examples/set_param_launch_test.py [32m.[0m[31m                       [ 66%][0m
+test/test_copyright.py [32m.[0m[31m                                                 [ 77%][0m
+test/test_flake8.py [32m.[0m[31m                                                    [ 88%][0m
+test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________ launch tests: launch_testing_examples.hello_world_launch_test _________[0m
+
+=============================================================================================================================================================================================================
+FAIL: launch_testing_examples.hello_world_launch_test.TestHelloWorldShutdown.test_exit_codes
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/launch_testing/launch_testing_examples/launch_testing_examples/hello_world_launch_test.py", line 58, in test_exit_codes
+    launch_testing.asserts.assertExitCodes(proc_info)
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch_testing/asserts/assert_exit_codes.py", line 62, in assertExitCodes
+    assert info.returncode in allowable_exit_codes, 'Proc {} exited with code {}'.format(
+AssertionError: Proc echo-6 exited with code 255
+----------------------------- Captured stdout call -----------------------------
+[INFO] [launch]: All log files can be found below /home/antoronson/.ros/log/2024-07-01-12-39-00-052295-antoronson-VirtualBox-6475
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [echo-6]: process started with pid [6586]
+[INFO] [echo-6]: sending signal 'SIGINT' to process[echo-6]
+[ERROR] [echo-6]: process has died [pid 6586, exit code 255, cmd 'echo hello_world'].
+----------------------------- Captured stderr call -----------------------------
+test_read_stdout (launch_testing_examples.hello_world_launch_test.TestHelloWorldProcess)
+Check if 'hello_world' was found in the stdout. ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+test_exit_codes (launch_testing_examples.hello_world_launch_test.TestHelloWorldShutdown)
+Check if the processes exited normally. ... FAIL
+
+======================================================================
+FAIL: test_exit_codes (launch_testing_examples.hello_world_launch_test.TestHelloWorldShutdown)
+Check if the processes exited normally.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/launch_testing/launch_testing_examples/launch_testing_examples/hello_world_launch_test.py", line 58, in test_exit_codes
+    launch_testing.asserts.assertExitCodes(proc_info)
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch_testing/asserts/assert_exit_codes.py", line 62, in assertExitCodes
+    assert info.returncode in allowable_exit_codes, 'Proc {} exited with code {}'.format(
+AssertionError: Proc echo-6 exited with code 255
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)
+------------------------------ Captured log call -------------------------------
+[33mWARNING [0m asyncio:unix_events.py:1398 Unknown child process pid 6586, will report returncode 255
+[33m=============================== warnings summary ===============================[0m
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated xml file: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples/pytest.xml -
+=========================== short test summary info ============================
+FAILED launch_testing_examples/hello_world_launch_test.py::launch_testing_examples.hello_world_launch_test
+[31m=================== [31m[1m1 failed[0m, [32m8 passed[0m, [33m2 warnings[0m[31m in 16.45s[0m[31m ===================[0m

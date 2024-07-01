@@ -1,0 +1,22 @@
+[0.191s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclpy/topics/pointcloud_publisher': AMENT_PREFIX_PATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_pointcloud_publisher:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_pointcloud_publisher/pytest.xml --junit-prefix=examples_rclpy_pointcloud_publisher -o cache_dir=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_pointcloud_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.382s] [1m============================= test session starts ==============================[0m
+[0.383s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.386s] cachedir: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_pointcloud_publisher/.pytest_cache
+[0.386s] rootdir: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclpy, configfile: pytest.ini
+[0.386s] plugins: ament-xmllint-0.12.11, ament-pep257-0.12.11, launch-testing-1.0.6, launch-testing-ros-0.19.7, ament-flake8-0.12.11, ament-copyright-0.12.11, ament-lint-0.12.11, cov-3.0.0, colcon-core-0.16.1
+[0.433s] [1mcollecting ... [0m[1m
+[0.433s] collected 3 items                                                              [0m
+[0.433s] 
+[0.533s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[0.591s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[0.605s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[0.606s] 
+[0.606s] [33m=============================== warnings summary ===============================[0m
+[0.606s] topics/pointcloud_publisher/test/test_flake8.py::test_flake8
+[0.606s] topics/pointcloud_publisher/test/test_flake8.py::test_flake8
+[0.606s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[0.606s] 
+[0.606s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[0.606s] - generated xml file: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_pointcloud_publisher/pytest.xml -
+[0.606s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 0.22s[0m[33m =========================[0m
+[0.646s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/rclpy/topics/pointcloud_publisher' returned '0': AMENT_PREFIX_PATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_pointcloud_publisher:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_pointcloud_publisher/pytest.xml --junit-prefix=examples_rclpy_pointcloud_publisher -o cache_dir=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_pointcloud_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

@@ -1,0 +1,76 @@
+[0.191s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/launch_testing/launch_testing_examples': AMENT_PREFIX_PATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/launch_testing_examples:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples/pytest.xml --junit-prefix=launch_testing_examples -o cache_dir=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.391s] [1m============================= test session starts ==============================[0m
+[0.391s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.394s] cachedir: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples/.pytest_cache
+[0.394s] rootdir: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/launch_testing/launch_testing_examples
+[0.394s] plugins: ament-xmllint-0.12.11, ament-pep257-0.12.11, launch-testing-1.0.6, launch-testing-ros-0.19.7, ament-flake8-0.12.11, ament-copyright-0.12.11, ament-lint-0.12.11, cov-3.0.0, colcon-core-0.16.1
+[0.665s] [1mcollecting ... [0m[1m
+[0.665s] collected 9 items                                                              [0m
+[0.666s] 
+[2.921s] launch_testing_examples/check_msgs_launch_test.py [32m.[0m[32m                      [ 11%][0m
+[7.612s] launch_testing_examples/check_multiple_nodes_launch_test.py [32m.[0m[32m            [ 22%][0m
+[12.756s] launch_testing_examples/check_node_launch_test.py [32m.[0m[32m                      [ 33%][0m
+[12.762s] launch_testing_examples/hello_world_launch_test.py [31mF[0m[31m                     [ 44%][0m
+[16.002s] launch_testing_examples/record_rosbag_launch_test.py [32m.[0m[31m                   [ 55%][0m
+[16.476s] launch_testing_examples/set_param_launch_test.py [32m.[0m[31m                       [ 66%][0m
+[16.706s] test/test_copyright.py [32m.[0m[31m                                                 [ 77%][0m
+[16.811s] test/test_flake8.py [32m.[0m[31m                                                    [ 88%][0m
+[16.840s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[16.840s] 
+[16.840s] =================================== FAILURES ===================================
+[16.840s] [31m[1m________ launch tests: launch_testing_examples.hello_world_launch_test _________[0m
+[16.841s] 
+[16.841s] =============================================================================================================================================================================================================
+[16.841s] FAIL: launch_testing_examples.hello_world_launch_test.TestHelloWorldShutdown.test_exit_codes
+[16.841s] -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[16.841s] Traceback (most recent call last):
+[16.841s]   File "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/launch_testing/launch_testing_examples/launch_testing_examples/hello_world_launch_test.py", line 58, in test_exit_codes
+[16.841s]     launch_testing.asserts.assertExitCodes(proc_info)
+[16.841s]   File "/opt/ros/humble/lib/python3.10/site-packages/launch_testing/asserts/assert_exit_codes.py", line 62, in assertExitCodes
+[16.841s]     assert info.returncode in allowable_exit_codes, 'Proc {} exited with code {}'.format(
+[16.841s] AssertionError: Proc echo-6 exited with code 255
+[16.841s] ----------------------------- Captured stdout call -----------------------------
+[16.841s] [INFO] [launch]: All log files can be found below /home/antoronson/.ros/log/2024-07-01-12-39-00-052295-antoronson-VirtualBox-6475
+[16.841s] [INFO] [launch]: Default logging verbosity is set to INFO
+[16.841s] [INFO] [echo-6]: process started with pid [6586]
+[16.841s] [INFO] [echo-6]: sending signal 'SIGINT' to process[echo-6]
+[16.841s] [ERROR] [echo-6]: process has died [pid 6586, exit code 255, cmd 'echo hello_world'].
+[16.842s] ----------------------------- Captured stderr call -----------------------------
+[16.842s] test_read_stdout (launch_testing_examples.hello_world_launch_test.TestHelloWorldProcess)
+[16.842s] Check if 'hello_world' was found in the stdout. ... ok
+[16.842s] 
+[16.842s] ----------------------------------------------------------------------
+[16.842s] Ran 1 test in 0.001s
+[16.842s] 
+[16.842s] OK
+[16.842s] test_exit_codes (launch_testing_examples.hello_world_launch_test.TestHelloWorldShutdown)
+[16.842s] Check if the processes exited normally. ... FAIL
+[16.842s] 
+[16.842s] ======================================================================
+[16.842s] FAIL: test_exit_codes (launch_testing_examples.hello_world_launch_test.TestHelloWorldShutdown)
+[16.842s] Check if the processes exited normally.
+[16.842s] ----------------------------------------------------------------------
+[16.842s] Traceback (most recent call last):
+[16.842s]   File "/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/launch_testing/launch_testing_examples/launch_testing_examples/hello_world_launch_test.py", line 58, in test_exit_codes
+[16.842s]     launch_testing.asserts.assertExitCodes(proc_info)
+[16.843s]   File "/opt/ros/humble/lib/python3.10/site-packages/launch_testing/asserts/assert_exit_codes.py", line 62, in assertExitCodes
+[16.843s]     assert info.returncode in allowable_exit_codes, 'Proc {} exited with code {}'.format(
+[16.843s] AssertionError: Proc echo-6 exited with code 255
+[16.843s] 
+[16.843s] ----------------------------------------------------------------------
+[16.843s] Ran 1 test in 0.000s
+[16.843s] 
+[16.843s] FAILED (failures=1)
+[16.843s] ------------------------------ Captured log call -------------------------------
+[16.843s] [33mWARNING [0m asyncio:unix_events.py:1398 Unknown child process pid 6586, will report returncode 255
+[16.843s] [33m=============================== warnings summary ===============================[0m
+[16.843s] test/test_flake8.py::test_flake8
+[16.843s] test/test_flake8.py::test_flake8
+[16.844s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[16.844s] 
+[16.844s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[16.844s] - generated xml file: /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples/pytest.xml -
+[16.844s] =========================== short test summary info ============================
+[16.844s] FAILED launch_testing_examples/hello_world_launch_test.py::launch_testing_examples.hello_world_launch_test
+[16.844s] [31m=================== [31m[1m1 failed[0m, [32m8 passed[0m, [33m2 warnings[0m[31m in 16.45s[0m[31m ===================[0m
+[16.901s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/examples/launch_testing/launch_testing_examples' returned '1': AMENT_PREFIX_PATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/launch_testing_examples:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples/pytest.xml --junit-prefix=launch_testing_examples -o cache_dir=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/launch_testing_examples:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
