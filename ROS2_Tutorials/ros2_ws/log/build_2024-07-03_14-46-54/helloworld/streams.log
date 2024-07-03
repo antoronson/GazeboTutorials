@@ -1,0 +1,22 @@
+[0.599s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/helloworld': PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/helloworld build --build-base /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build install --record /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/install.log --single-version-externally-managed install_data
+[0.765s] running egg_info
+[0.766s] writing ../../build/helloworld/helloworld.egg-info/PKG-INFO
+[0.767s] writing dependency_links to ../../build/helloworld/helloworld.egg-info/dependency_links.txt
+[0.767s] writing entry points to ../../build/helloworld/helloworld.egg-info/entry_points.txt
+[0.767s] writing requirements to ../../build/helloworld/helloworld.egg-info/requires.txt
+[0.768s] writing top-level names to ../../build/helloworld/helloworld.egg-info/top_level.txt
+[0.769s] reading manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+[0.770s] writing manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+[0.770s] running build
+[0.770s] running build_py
+[0.772s] running install
+[0.772s] running install_lib
+[0.774s] running install_data
+[0.774s] running install_egg_info
+[0.775s] removing '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld-0.0.0-py3.10.egg-info' (and everything under it)
+[0.775s] Copying ../../build/helloworld/helloworld.egg-info to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld-0.0.0-py3.10.egg-info
+[0.777s] running install_scripts
+[0.790s] Installing listener script to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/helloworld
+[0.791s] Installing talker script to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/helloworld
+[0.792s] writing list of installed files to '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/install.log'
+[0.807s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/helloworld' returned '0': PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/helloworld build --build-base /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build install --record /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/install.log --single-version-externally-managed install_data

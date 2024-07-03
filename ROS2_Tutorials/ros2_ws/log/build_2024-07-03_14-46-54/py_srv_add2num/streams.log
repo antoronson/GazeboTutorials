@@ -1,0 +1,36 @@
+[0.421s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/py_srv_add2num': PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srv_add2num build --build-base /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/build install --record /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/install.log --single-version-externally-managed install_data
+[0.586s] running egg_info
+[0.587s] creating ../../build/py_srv_add2num/py_srv_add2num.egg-info
+[0.587s] writing ../../build/py_srv_add2num/py_srv_add2num.egg-info/PKG-INFO
+[0.587s] writing dependency_links to ../../build/py_srv_add2num/py_srv_add2num.egg-info/dependency_links.txt
+[0.587s] writing entry points to ../../build/py_srv_add2num/py_srv_add2num.egg-info/entry_points.txt
+[0.588s] writing requirements to ../../build/py_srv_add2num/py_srv_add2num.egg-info/requires.txt
+[0.588s] writing top-level names to ../../build/py_srv_add2num/py_srv_add2num.egg-info/top_level.txt
+[0.588s] writing manifest file '../../build/py_srv_add2num/py_srv_add2num.egg-info/SOURCES.txt'
+[0.589s] reading manifest file '../../build/py_srv_add2num/py_srv_add2num.egg-info/SOURCES.txt'
+[0.590s] writing manifest file '../../build/py_srv_add2num/py_srv_add2num.egg-info/SOURCES.txt'
+[0.590s] running build
+[0.590s] running build_py
+[0.590s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/build
+[0.591s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/build/lib
+[0.591s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/build/lib/py_srv_add2num
+[0.591s] copying py_srv_add2num/__init__.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/build/lib/py_srv_add2num
+[0.591s] copying py_srv_add2num/add_two_ints_server.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/build/lib/py_srv_add2num
+[0.592s] running install
+[0.592s] running install_lib
+[0.593s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/lib/python3.10/site-packages/py_srv_add2num
+[0.593s] copying /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/build/lib/py_srv_add2num/__init__.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/lib/python3.10/site-packages/py_srv_add2num
+[0.593s] copying /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/build/lib/py_srv_add2num/add_two_ints_server.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/lib/python3.10/site-packages/py_srv_add2num
+[0.593s] byte-compiling /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/lib/python3.10/site-packages/py_srv_add2num/__init__.py to __init__.cpython-310.pyc
+[0.594s] byte-compiling /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/lib/python3.10/site-packages/py_srv_add2num/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[0.594s] running install_data
+[0.594s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/ament_index
+[0.594s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/ament_index/resource_index
+[0.594s] creating /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/ament_index/resource_index/packages
+[0.594s] copying resource/py_srv_add2num -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/ament_index/resource_index/packages
+[0.595s] copying package.xml -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/py_srv_add2num
+[0.595s] running install_egg_info
+[0.596s] Copying ../../build/py_srv_add2num/py_srv_add2num.egg-info to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/lib/python3.10/site-packages/py_srv_add2num-0.0.1-py3.10.egg-info
+[0.596s] running install_scripts
+[0.611s] writing list of installed files to '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/install.log'
+[0.634s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/py_srv_add2num' returned '0': PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srv_add2num build --build-base /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/build install --record /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/install.log --single-version-externally-managed install_data

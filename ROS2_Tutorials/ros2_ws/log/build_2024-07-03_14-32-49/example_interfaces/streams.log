@@ -1,0 +1,7 @@
+[0.003s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/example_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/example_interfaces -DCMAKE_INSTALL_PREFIX=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/example_interfaces
+[0.010s] [31mCMake Error at CMakeLists.txt:10:
+[0.010s]   Parse error.  Expected "(", got identifier with text "package".
+[0.010s] 
+[0.010s] [0m
+[0.011s] -- Configuring incomplete, errors occurred!
+[0.012s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/example_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/example_interfaces -DCMAKE_INSTALL_PREFIX=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/example_interfaces
