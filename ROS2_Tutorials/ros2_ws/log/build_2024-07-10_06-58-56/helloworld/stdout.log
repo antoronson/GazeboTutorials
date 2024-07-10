@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/helloworld/helloworld.egg-info/PKG-INFO
+writing dependency_links to ../../build/helloworld/helloworld.egg-info/dependency_links.txt
+writing entry points to ../../build/helloworld/helloworld.egg-info/entry_points.txt
+writing requirements to ../../build/helloworld/helloworld.egg-info/requires.txt
+writing top-level names to ../../build/helloworld/helloworld.egg-info/top_level.txt
+reading manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+writing manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/helloworld/helloworld.egg-info to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/helloworld
+Installing talker script to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/helloworld
+writing list of installed files to '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/install.log'

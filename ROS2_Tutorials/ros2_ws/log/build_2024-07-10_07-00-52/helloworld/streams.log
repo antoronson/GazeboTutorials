@@ -1,0 +1,22 @@
+[6.044s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/helloworld': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/helloworld build --build-base /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build install --record /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/install.log --single-version-externally-managed install_data
+[6.986s] running egg_info
+[6.988s] writing ../../build/helloworld/helloworld.egg-info/PKG-INFO
+[6.990s] writing dependency_links to ../../build/helloworld/helloworld.egg-info/dependency_links.txt
+[6.990s] writing entry points to ../../build/helloworld/helloworld.egg-info/entry_points.txt
+[6.990s] writing requirements to ../../build/helloworld/helloworld.egg-info/requires.txt
+[6.990s] writing top-level names to ../../build/helloworld/helloworld.egg-info/top_level.txt
+[6.995s] reading manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+[6.997s] writing manifest file '../../build/helloworld/helloworld.egg-info/SOURCES.txt'
+[6.997s] running build
+[6.997s] running build_py
+[6.999s] running install
+[6.999s] running install_lib
+[7.005s] running install_data
+[7.005s] running install_egg_info
+[7.046s] removing '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld-0.0.0-py3.10.egg-info' (and everything under it)
+[7.047s] Copying ../../build/helloworld/helloworld.egg-info to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages/helloworld-0.0.0-py3.10.egg-info
+[7.049s] running install_scripts
+[7.217s] Installing listener script to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/helloworld
+[7.217s] Installing talker script to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/helloworld
+[7.218s] writing list of installed files to '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/install.log'
+[7.295s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/helloworld' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/helloworld build --build-base /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build install --record /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/install.log --single-version-externally-managed install_data

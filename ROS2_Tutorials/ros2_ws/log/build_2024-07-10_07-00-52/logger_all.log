@@ -1,0 +1,227 @@
+[0.600s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.600s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74342bf5e470>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74342bf5c670>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74342bf5c670>>)
+[1.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.211s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extensions ['ignore', 'ignore_ament_install']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extension 'ignore'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extension 'ignore_ament_install'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extensions ['colcon_pkg']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extension 'colcon_pkg'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extensions ['colcon_meta']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extension 'colcon_meta'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extensions ['ros']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extension 'ros'
+[1.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/helloworld' with type 'ros.ament_python' and name 'helloworld'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv_add2num) by extensions ['ignore', 'ignore_ament_install']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv_add2num) by extension 'ignore'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv_add2num) by extension 'ignore_ament_install'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv_add2num) by extensions ['colcon_pkg']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv_add2num) by extension 'colcon_pkg'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv_add2num) by extensions ['colcon_meta']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv_add2num) by extension 'colcon_meta'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv_add2num) by extensions ['ros']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv_add2num) by extension 'ros'
+[1.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_srv_add2num' with type 'ros.ament_python' and name 'py_srv_add2num'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore_ament_install'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_pkg']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_pkg'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_meta']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_meta'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ros']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ros'
+[1.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[1.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.496s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 26 installed packages in /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install
+[1.500s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[1.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'cmake_args' from command line to 'None'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'cmake_target' from command line to 'None'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'cmake_clean_cache' from command line to 'False'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'cmake_clean_first' from command line to 'False'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'cmake_force_configure' from command line to 'False'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'ament_cmake_args' from command line to 'None'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'catkin_cmake_args' from command line to 'None'
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.629s] DEBUG:colcon.colcon_core.verb:Building package 'helloworld' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld', 'merge_install': False, 'path': '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/helloworld', 'symlink_install': False, 'test_result_base': None}
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'py_srv_add2num' build argument 'cmake_args' from command line to 'None'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'py_srv_add2num' build argument 'cmake_target' from command line to 'None'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'py_srv_add2num' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'py_srv_add2num' build argument 'cmake_clean_cache' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'py_srv_add2num' build argument 'cmake_clean_first' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'py_srv_add2num' build argument 'cmake_force_configure' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'py_srv_add2num' build argument 'ament_cmake_args' from command line to 'None'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'py_srv_add2num' build argument 'catkin_cmake_args' from command line to 'None'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'py_srv_add2num' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.631s] DEBUG:colcon.colcon_core.verb:Building package 'py_srv_add2num' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num', 'merge_install': False, 'path': '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/py_srv_add2num', 'symlink_install': False, 'test_result_base': None}
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.633s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli', 'merge_install': False, 'path': '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/py_srvcli', 'symlink_install': False, 'test_result_base': None}
+[1.633s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.636s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.636s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/helloworld' with build type 'ament_python'
+[1.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('helloworld', 'ament_prefix_path')
+[1.643s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/helloworld/hook/ament_prefix_path.ps1'
+[1.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/helloworld/hook/ament_prefix_path.dsv'
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/helloworld/hook/ament_prefix_path.sh'
+[1.650s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.651s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.671s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/py_srv_add2num' with build type 'ament_python'
+[1.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srv_add2num', 'ament_prefix_path')
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/py_srv_add2num/hook/ament_prefix_path.ps1'
+[1.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/py_srv_add2num/hook/ament_prefix_path.dsv'
+[1.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/py_srv_add2num/hook/ament_prefix_path.sh'
+[1.676s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.676s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.700s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/py_srvcli' with build type 'ament_python'
+[1.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[1.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.ps1'
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[1.706s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.706s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.984s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/helloworld'
+[2.985s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.985s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.203s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/py_srv_add2num'
+[4.204s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.204s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.425s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/py_srvcli'
+[5.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/helloworld': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/helloworld build --build-base /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build install --record /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/install.log --single-version-externally-managed install_data
+[7.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/py_srvcli': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srvcli/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srvcli/build install --record /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[7.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/py_srv_add2num': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srv_add2num build --build-base /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/build install --record /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/install.log --single-version-externally-managed install_data
+[8.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/helloworld' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/helloworld build --build-base /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/build install --record /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/helloworld/install.log --single-version-externally-managed install_data
+[8.936s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld' for CMake module files
+[8.938s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld' for CMake config files
+[8.939s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib'
+[8.940s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/bin'
+[8.940s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/pkgconfig/helloworld.pc'
+[8.940s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/lib/python3.10/site-packages'
+[8.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('helloworld', 'pythonpath')
+[8.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/helloworld/hook/pythonpath.ps1'
+[8.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/helloworld/hook/pythonpath.dsv'
+[8.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/helloworld/hook/pythonpath.sh'
+[8.944s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/bin'
+[8.944s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(helloworld)
+[8.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/helloworld/package.ps1'
+[8.948s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/helloworld/package.dsv'
+[8.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/helloworld/package.sh'
+[8.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/helloworld/package.bash'
+[8.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/helloworld/package.zsh'
+[8.955s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/helloworld/share/colcon-core/packages/helloworld)
+[9.273s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli' for CMake module files
+[9.275s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli' for CMake config files
+[9.276s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/lib'
+[9.276s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/bin'
+[9.276s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/lib/pkgconfig/py_srvcli.pc'
+[9.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/py_srvcli' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srvcli/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srvcli/build install --record /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[9.278s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/lib/python3.10/site-packages'
+[9.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath')
+[9.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.ps1'
+[9.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.dsv'
+[9.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.sh'
+[9.282s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/bin'
+[9.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srvcli)
+[9.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/share/py_srvcli/package.ps1'
+[9.285s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/share/py_srvcli/package.dsv'
+[9.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/share/py_srvcli/package.sh'
+[9.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/share/py_srvcli/package.bash'
+[9.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/share/py_srvcli/package.zsh'
+[9.300s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/share/colcon-core/packages/py_srvcli)
+[9.354s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num' for CMake module files
+[9.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/py_srv_add2num' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/prefix_override:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srv_add2num build --build-base /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/build install --record /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srv_add2num/install.log --single-version-externally-managed install_data
+[9.355s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num' for CMake config files
+[9.357s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/lib'
+[9.357s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/bin'
+[9.357s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/lib/pkgconfig/py_srv_add2num.pc'
+[9.358s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/lib/python3.10/site-packages'
+[9.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srv_add2num', 'pythonpath')
+[9.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/py_srv_add2num/hook/pythonpath.ps1'
+[9.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/py_srv_add2num/hook/pythonpath.dsv'
+[9.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/py_srv_add2num/hook/pythonpath.sh'
+[9.362s] Level 1:colcon.colcon_core.environment:checking '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/bin'
+[9.362s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srv_add2num)
+[9.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/py_srv_add2num/package.ps1'
+[9.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/py_srv_add2num/package.dsv'
+[9.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/py_srv_add2num/package.sh'
+[9.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/py_srv_add2num/package.bash'
+[9.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/py_srv_add2num/package.zsh'
+[9.366s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srv_add2num/share/colcon-core/packages/py_srv_add2num)
+[9.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.369s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.382s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.382s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.383s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.411s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.412s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/local_setup.ps1'
+[9.414s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/_local_setup_util_ps1.py'
+[9.420s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/setup.ps1'
+[9.425s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/local_setup.sh'
+[9.426s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/_local_setup_util_sh.py'
+[9.427s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/setup.sh'
+[9.430s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/local_setup.bash'
+[9.431s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/setup.bash'
+[9.434s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/local_setup.zsh'
+[9.435s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/setup.zsh'
