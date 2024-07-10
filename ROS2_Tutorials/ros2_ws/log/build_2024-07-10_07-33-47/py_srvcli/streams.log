@@ -1,0 +1,25 @@
+[0.998s] Invoking command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/py_srvcli': PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srvcli/build install --record /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[1.398s] running egg_info
+[1.399s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.399s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.399s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.400s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.400s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[1.402s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.404s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.404s] running build
+[1.404s] running build_py
+[1.405s] copying py_srvcli/service_member_function.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[1.405s] running install
+[1.406s] running install_lib
+[1.407s] copying /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.408s] byte-compiling /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[1.409s] running install_data
+[1.409s] running install_egg_info
+[1.412s] removing '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[1.412s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[1.413s] running install_scripts
+[1.445s] Installing client script to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/lib/py_srvcli
+[1.445s] Installing service script to /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/lib/py_srvcli
+[1.446s] writing list of installed files to '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srvcli/install.log'
+[1.485s] Invoked command in '/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srvcli/build install --record /home/antoronson/GitTrade/GazeboTutorials/ROS2_Tutorials/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
